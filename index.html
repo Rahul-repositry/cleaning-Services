@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- HOME PAGE SECTION  -->
+
+      <div class="section1">
+        <!-- NAVBAR -->
+
+        <div class="navbar">
+          <div class="logo">
+            <img src="resources/img/logoCleaning.png" />
+          </div>
+          <ul class="navlinks">
+            <li class="navlink"><a href="">Home</a></li>
+            <li class="navlink"><a href="">Services</a></li>
+            <li class="navlink"><a href="">Reviews</a></li>
+            <li class="navlink"><a href="">Contact-us</a></li>
+          </ul>
+          <lord-icon
+            src="https://cdn.lordicon.com/osuxyevn.json"
+            trigger="click"
+            class="lord-home"
+            onclick="myFunc()"
+            style="width: 25px; height: 25px"
+          >
+          </lord-icon>
+          <div id="lord-icon">
+            <div><a href="">Home</a></div>
+            <div><a href="">Services</a></div>
+            <div><a href="">Reviews</a></div>
+            <div><a href="">Contact-us</a></div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="text1">
+            <p>top rated by most of the people</p>
+          </div>
+          <div class="heading">
+            <h2>
+              Professional Home Cleaning <br />
+              Services With Hydra
+            </h2>
+            <span style="--color: #f8dbdb"></span>
+            <span style="--color: #9bd7ee"></span>
+            <span style="--color: #ffeab4"></span>
+          </div>
+          <div class="desc">
+            <p>
+              At Hydra Home Cleaning Services, we understand how important it is
+              to keep your home clean and tidy. Our goal is to provide you with
+              the highest quality cleaning services, so you can enjoy a spotless
+              and organized home without having to worry about the hassle and
+              stress of cleaning.
+            </p>
+          </div>
+        </div>
+        <section id="slider">
+          <input type="radio" name="slider" id="s1" checked />
+          <input type="radio" name="slider" id="s2" />
+          <input type="radio" name="slider" id="s3" />
+          <input type="radio" name="slider" id="s4" />
+          <input type="radio" name="slider" id="s5" />
+
+          <label for="s1" id="slide1">
+            <img src="resources/img/slider1.png" height="100%" width="100%" />
+          </label>
+          <label for="s2" id="slide2">
+            <img src="resources/img/slider2.jpg" height="100%" width="100%" />
+          </label>
+          <label for="s3" id="slide3">
+            <img src="resources/img/slider3.jpg" height="100%" width="100%" />
+          </label>
+          <label for="s4" id="slide4">
+            <img src="resources/img/slider6.jpg" height="100%" width="100%" />
+          </label>
+          <label for="s5" id="slide5">
+            <img src="resources/img/slider5.jpg" height="100%" width="100%" />
+          </label>
+        </section>
+        <div class="contactInfo">
+          <div class="contactUs">
+            <div class="logo">
+              <img src="resources/icons/callUs.svg" alt="Home cleaning" />
+            </div>
+            <div class="title">
+              <h2>Call Us-</h2>
+            </div>
+            <div class="value">
+              <p>+1(604) 7717750</p>
+            </div>
+          </div>
+          <div class="contactUs">
+            <div class="logo">
+              <img src="resources/icons/location.svg" alt="Office cleaning" />
+            </div>
+            <div class="title">
+              <h2>Visit Us-</h2>
+            </div>
+            <div class="value">
+              <p>10360 140 St, Surrey, BC V3T 4N4</p>
+            </div>
+          </div>
+          <div class="contactUs">
+            <div class="logo">
+              <img src="resources/icons/gmail.svg" alt="Home cleaning" />
+            </div>
+            <div class="title">
+              <h2>Gmail-</h2>
+            </div>
+            <div class="value">
+              <p>Hydra@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SERVICES PAGE SECTION  -->
+
+      <div class="section2">
+        <div class="heading">
+          <h2>Our Services</h2>
+        </div>
+        <div class="cardsContainer">
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services1.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Post-construction- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Our post-construction cleaning services include removing the
+                  tape and plastic coverings, cleaning windows and glass,
+                  including windowsill
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services2.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Floor-polishing <br />
+                  rubbing
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  A clean floor gives the impression that it has been properly
+                  and consistently maintained. It not only leaves a positive
+                  impression
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services3.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Great-Grout- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Grout cleaning involves removing dirtand mildew from the
+                  porous material used to fill the spaces between tiles with our
+                  high-tech gadgets that are very accurate in giving out best
+                  results.
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services4.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Roof-Gutter- <br />
+                  Cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Our professional team with years of gutter cleaning experience
+                  has the skills necessary to clean your gutters with the utmost
+                  care and efficiency
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services5.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  High-dusting- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Our high dusting team is qualified, highly trained, and
+                  equipped to clean any height of the surface. We provide the
+                  best and most thorough high dusting .
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services6.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Daily-Janitorial- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  We aim to leave every corner of your business sparkling clean
+                  while not interfering with your regular operations. Our
+                  janitorial services are comprehensive.
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services7.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Full-Pakrade- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Our services are designed to meet all of our client’s needs
+                  while staying within their budget. We are always available for
+                  parking lot power scrubbing and washing .
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services8.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  High-Pressure- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Our pressure washer team is made up of trained specialists who
+                  know how to clean your surfaces with the care that power
+                  washing requires to avoid.
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services9.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Large-Warehouse- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Maintaining a clean and safe environment in your industrial
+                  plant or warehouse is essential. Keeping your industrial plant
+                  clean can reduce health risks.
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services10.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Steam-Carpet- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  We provide steam-cleaning services for your carpets, area
+                  rugs, upholstery, leather, mattresses, cars, and other items .
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services11.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Buildings-Window- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Our technicians have extensive experience cleaning all types
+                  of windows, including single pane, double pane, French pane, ,
+                  skylights, glass panels .
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pic">
+              <img src="resources/img/services12.png" alt="Home Cleaning" />
+            </div>
+            <div class="details">
+              <div class="descHeading">
+                <h2>
+                  Kitchen-appliances- <br />
+                  cleaning
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  our kitchen cleaning includes cleaning of countertops,
+                  appliances etc .Our team uses friendly solutions to ensure a
+                  spotless kitchen for you and your family.
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <div class="button"><a href="">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WHT TO DO SECTION  -->
+
+      <div class="section3">
+        <div class="heading">
+          <h2>What you have to do <span></span></h2>
+        </div>
+        <div class="picContainer">
+          <div class="pic" data-number="1" data-value="Get a Price">
+            <img
+              src="resources/img/getprice.png"
+              alt="warehouse cleaning services"
+            />
+          </div>
+          <div class="pic" data-number="2" data-value="Book It">
+            <img
+              src="resources/img/bookit.png"
+              alt="warehouse cleaning services"
+            />
+          </div>
+          <div class="pic" data-number="3" data-value="Relax and Chill">
+            <img
+              src="resources/img/relax.png"
+              alt="warehouse cleaning services"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- WHY WE NOT OTHER  -->
+      <div class="section4">
+        <div class="heading">
+          <h2>Why we not others</h2>
+        </div>
+        <div class="results">
+          <img src="resources/img/resul1.png" alt="Garage Washing" />
+          <img src="resources/img/result2.png" alt="store cleaning services" />
+          <img src="resources/img/result3.png" alt="house cleaning services" />
+        </div>
+      </div>
+
+      <!-- OUR CLIENT REVIES -->
+
+      <div class="section5">
+        <div class="heading">
+          <h2>What Our client says</h2>
+        </div>
+        <div class="slides">
+          <div class="slidesContainer">
+            <div class="slide">
+              <div class="rating">
+                <img src="resources/img/stars.png" alt="home services" />
+              </div>
+              <div class="review">
+                <p>
+                  Cleaning is top notch . i am very impressed with thier
+                  cleaning and i would recomend it to all
+                </p>
+              </div>
+              <div class="details">
+                <div class="name">
+                  <p>Adram James :</p>
+                  <img
+                    src="resources/icons/location.svg"
+                    alt="Office cleaning"
+                  />
+                  <p>Las Vegas</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="rating">
+                <img src="resources/img/stars.png" alt="home services" />
+              </div>
+              <div class="review">
+                <p>
+                  Cleaning is top notch . i am very impressed with thier
+                  cleaning and i would recomend it to all
+                </p>
+              </div>
+              <div class="details">
+                <div class="name">
+                  <p>Adram James :</p>
+                  <img
+                    src="resources/icons/location.svg"
+                    alt="Office cleaning"
+                  />
+                  <p>Las Vegas</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="rating">
+                <img src="resources/img/stars.png" alt="home services" />
+              </div>
+              <div class="review">
+                <p>
+                  Cleaning is top notch . i am very impressed with thier
+                  cleaning and i would recomend it to all
+                </p>
+              </div>
+              <div class="details">
+                <div class="name">
+                  <p>Adram James :</p>
+                  <img
+                    src="resources/icons/location.svg"
+                    alt="Office cleaning"
+                  />
+                  <p>Las Vegas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="button first" data-value="0"></div>
+          <div class="button second" data-value="-100vw"></div>
+          <div class="button third" data-value="-200vw"></div>
+        </div>
+      </div>
+
+      <!-- FOOTER SECTION -->
+      <div class="section6">
+        <div class="details">
+          <div class="logo">
+            <img src="resources/img/hydra.png" alt="Cleaning and Washing" />
+          </div>
+          <div class="services">
+            <div class="serviceLink one">
+              <p><a href="">ABOUT</a></p>
+              <p><a href="">SERVICES</a></p>
+              <p><a href="">HOW TO</a></p>
+            </div>
+            <div class="serviceLink second">
+              <p><a href="">WHY WE</a></p>
+              <p><a href="">REVIEWS</a></p>
+              <p><a href="">CONTACT US</a></p>
+            </div>
+          </div>
+          <div class="socialHandles">
+            <p>SOCIALIZE WITH HYDRA</p>
+            <div class="socialIcons">
+              <img
+                src="resources/icons/facebook.svg"
+                alt="cleaning and washing"
+              />
+              <img
+                src="resources/icons/instagram.svg"
+                alt="cleaning and washing"
+              />
+              <img
+                src="resources/icons/twitter.svg"
+                alt="cleaning and washing"
+              />
+              <img
+                src="resources/icons/linkedin.svg"
+                alt="cleaning and washing"
+              />
+              <img
+                src="resources/icons/youtube.svg"
+                alt="cleaning and washing"
+              />
+            </div>
+            <div class="button">LETS CLEAN HOME</div>
+          </div>
+        </div>
+        <div class="pageDetails">
+          <p>
+            2023 © HYDRA LANDING PAGE - BY Kimarth Organization - ALL RIGHTS
+            RESERVED <br /><br />Contact For Website Development-
+            jharaghav987@gmail.com || +91 7888775896 | 7901855997
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
